@@ -71,6 +71,18 @@ p{
     background-color: #4200a5;
 }
 
+.input-error{
+    border-color: #ff6363;
+}
+
+.input-error::placeholder{
+    color: #ff6363;
+}
+
+.input-error:focus{
+    border-color: #ff6363;
+}
+
 @media screen and (max-width:350px) {
     .title{
         font-size: 2rem;
