@@ -71,6 +71,11 @@ p{
     background-color: #4200a5;
 }
 
+.submit-button:disabled{
+    background-color: #a76cff;
+    cursor: not-allowed;
+}
+
 .input-error{
     border-color: #ff6363;
 }
